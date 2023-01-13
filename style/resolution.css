@@ -64,7 +64,7 @@ section{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    /* line-height: 47px; */
+    line-height: 47px;
     margin: 368px 379px 24px 89px; 
 }
 .failure-description{
@@ -118,23 +118,23 @@ section{
     color: #737272;
 }
 /* gradient section */
- /* .gradient{
-    margin: 191px;
+  .gradient-item{
+    /* margin: 191px; */
     position:relative;
-    align-items: center;
+    align-items: center; 
 }
 
 /* gradient div style */
- /* .gradient-tittle{
+  .gradient-tittle{
     position: absolute;
     top: 0;
     left: 0;
-}  */ 
+}  
  .grad{
     height: 300px;
      background-image: url(../images/gradient3.png);
      background-image: url(../images/watch.png);
-    opacity: 0.4;
+     opacity: 0.4; 
     border-radius:3px;
     margin: 130px 230px;
 }
