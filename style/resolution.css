@@ -162,7 +162,6 @@ footer{
 /* footer div styles */
 .contact{
     display: flex;
-    /* gap:100px; */
 }
 .contact-item{
     margin: 130px 230px;
