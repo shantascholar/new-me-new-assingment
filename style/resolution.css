@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+
+}
+/* banner styles */
+.banner{
+    position: relative;
+    text-align: center;
+}
+.banner-item{
+     position:absolute;
+     top:22%;
+     left:67%;
+    text-align-last: right;
+    
+}
+.banner-tittle{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    line-height: 76px;
+    margin-right: 67px;
+
+}
+.banner-description{
+    color: #444343;
+    line-height: 162%;
+    margin: 24px 33px 0 46px;
+
+}
+.btn-primary{
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 19px 22px;
+    margin-top: 32px;
+    margin-right: 24px;
+    align-items: right;
+
+}
+
+main{
+    
+}
+/* section failure */
+section{ 
+    margin-top: 130px;
+} 
+/* failure div styles */
+.failure-item{
+     display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+.failure-icon{
+    /* margin-top: 129px; */
+    margin-left: 206px;
+}
+.failure-tittle{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    line-height: 47px;
+    margin: 368px 379px 24px 89px; 
+}
+.failure-description{
+    line-height: 26px;
+    color: #444343;
+    margin-left: 86px;
+    margin-right: 322px;
+
+}
+.failure-reasons{
+    list-style: none;
+    margin-left: 54px;
+    margin-top: 19px;
+    margin-right: 290px;
+}
+/* my plans section */
+.my-plans{
+    /* margin-top: 130px; */
+    max-width: 1141px;
+    margin-left: 230px;
+}
+.section-tittle{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+    /* margin-left: 422px; */
+}
+/* div plans styles */
+.plans-execution-container{
+    display: flex;
+    justify-content: space-between;
+}
+.plans{
+    margin-top: 54px;
+}
+.plans-tittle{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-top: 19px;
+    
+}
+.plans-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: left;
+    color: #737272;
+}
+/* gradient section */
+ .gradient{
+    margin: 191px;
+    position:relative;
+    align-items: center;
+}
+
+/* gradient div style */
+ .gradient-tittle{
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+/* .grad{
+    height: 300px;
+     background-image: url(../images/gradient3.png);
+     background-image: url(../images/watch.png);
+    opacity: 0.4;
+    border-radius:3px;
+    margin: 130px 230px;
+}
+.grad-tittle{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 59px 617px 24px 64px;
+}
+.btn-grad{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    padding: 13px 23px 3px;
+    margin: 24px 916px 59px 64px;
+} */
+/* footer */
+footer{
+     background: #151414;
+     margin-top: 130px;
+}
+/* footer div styles */
+.contact{
+    display: flex;
+    /* gap:100px; */
+}
+.contact-item{
+    margin: 130px 230px;
+}
+.contact-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.contact-description{
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 19px;
+}
+.contact-email{
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.contact-phone{
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-bottom: 32px;
+}
+.contact a{
+    text-decoration: none;
+}
+/* subscribe form */
+.contact-form{
+    padding:130px 230px;
+}
+.form-tittle{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.contact input{
+    margin-top: 30px;
+    padding: 13px 20px;
+}
+.contact input[type="subscribe"]{
+    color: #F15B22;
+    margin: 20px 3px;
+    border: 0;
+    text-align: center;
+    padding: 13px 3px;
+}
